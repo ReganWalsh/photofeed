@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,39 @@
 		DF4ED3B3240A27FA001EBFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4ED3B1240A27FA001EBFFB /* Main.storyboard */; };
 		DF4ED3B5240A27FC001EBFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4ED3B4240A27FC001EBFFB /* Assets.xcassets */; };
 		DF4ED3B8240A27FC001EBFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4ED3B6240A27FC001EBFFB /* LaunchScreen.storyboard */; };
+		DF4ED3F0240A39B7001EBFFB /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3EE240A39B6001EBFFB /* GTMSessionFetcher.framework */; };
+		DF4ED3F1240A39B7001EBFFB /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3EF240A39B7001EBFFB /* FirebaseAuth.framework */; };
+		DF4ED3FD240A39EA001EBFFB /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3F2240A39E8001EBFFB /* FirebaseAnalytics.framework */; };
+		DF4ED3FE240A39EA001EBFFB /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3F3240A39E8001EBFFB /* GoogleDataTransport.framework */; };
+		DF4ED3FF240A39EA001EBFFB /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3F4240A39E9001EBFFB /* GoogleAppMeasurement.framework */; };
+		DF4ED400240A39EA001EBFFB /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3F5240A39E9001EBFFB /* FirebaseInstallations.framework */; };
+		DF4ED401240A39EA001EBFFB /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3F6240A39EA001EBFFB /* nanopb.framework */; };
+		DF4ED402240A39EA001EBFFB /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3F7240A39EA001EBFFB /* FIRAnalyticsConnector.framework */; };
+		DF4ED403240A39EA001EBFFB /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3F8240A39EA001EBFFB /* FirebaseCoreDiagnostics.framework */; };
+		DF4ED404240A39EA001EBFFB /* GoogleDataTransportCCTSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3F9240A39EA001EBFFB /* GoogleDataTransportCCTSupport.framework */; };
+		DF4ED405240A39EA001EBFFB /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3FA240A39EA001EBFFB /* GoogleUtilities.framework */; };
+		DF4ED406240A39EA001EBFFB /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3FB240A39EA001EBFFB /* PromisesObjC.framework */; };
+		DF4ED407240A39EA001EBFFB /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED3FC240A39EA001EBFFB /* FirebaseCore.framework */; };
+		DF4ED40A240A3A0D001EBFFB /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED408240A3A0D001EBFFB /* GTMSessionFetcher.framework */; };
+		DF4ED40B240A3A0D001EBFFB /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED409240A3A0D001EBFFB /* FirebaseStorage.framework */; };
+		DF4ED412240A3A37001EBFFB /* abseil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED40C240A3A2F001EBFFB /* abseil.framework */; };
+		DF4ED413240A3A37001EBFFB /* gRPC-C++.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED40D240A3A31001EBFFB /* gRPC-C++.framework */; };
+		DF4ED414240A3A37001EBFFB /* BoringSSL-GRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED40E240A3A32001EBFFB /* BoringSSL-GRPC.framework */; };
+		DF4ED415240A3A37001EBFFB /* gRPC-Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED40F240A3A34001EBFFB /* gRPC-Core.framework */; };
+		DF4ED416240A3A37001EBFFB /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED410240A3A34001EBFFB /* leveldb-library.framework */; };
+		DF4ED417240A3A37001EBFFB /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED411240A3A37001EBFFB /* FirebaseFirestore.framework */; };
+		DF4ED419240A3C0D001EBFFB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4ED418240A3C0D001EBFFB /* FeedViewController.swift */; };
+		DF4ED41D240A3C4A001EBFFB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4ED41C240A3C4A001EBFFB /* SettingsViewController.swift */; };
+		DF4ED41F240A3C69001EBFFB /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4ED41E240A3C69001EBFFB /* UploadViewController.swift */; };
+		DF4ED421240A6012001EBFFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF4ED420240A6012001EBFFB /* GoogleService-Info.plist */; };
+		DF4ED423240A6774001EBFFB /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4ED422240A6774001EBFFB /* FeedCell.swift */; };
+		DF4ED426240A7B57001EBFFB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = DF4ED425240A7B57001EBFFB /* SDWebImage */; };
+		DF4ED428240A7B57001EBFFB /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DF4ED427240A7B57001EBFFB /* SDWebImageMapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1073450703C5C394E53C89C4 /* Pods-21.PhotoMedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-21.PhotoMedia.release.xcconfig"; path = "Target Support Files/Pods-21.PhotoMedia/Pods-21.PhotoMedia.release.xcconfig"; sourceTree = "<group>"; };
+		74DCDE84838E55DA1840EEAC /* Pods-21.PhotoMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-21.PhotoMedia.debug.xcconfig"; path = "Target Support Files/Pods-21.PhotoMedia/Pods-21.PhotoMedia.debug.xcconfig"; sourceTree = "<group>"; };
 		DF4ED3A8240A27FA001EBFFB /* 21.PhotoMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 21.PhotoMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4ED3AB240A27FA001EBFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4ED3AD240A27FA001EBFFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +54,33 @@
 		DF4ED3B4240A27FC001EBFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF4ED3B7240A27FC001EBFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF4ED3B9240A27FC001EBFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4ED3D7240A338B001EBFFB /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Firebase/Firebase.h; sourceTree = "<group>"; };
+		DF4ED3EE240A39B6001EBFFB /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		DF4ED3EF240A39B7001EBFFB /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		DF4ED3F2240A39E8001EBFFB /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		DF4ED3F3240A39E8001EBFFB /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
+		DF4ED3F4240A39E9001EBFFB /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		DF4ED3F5240A39E9001EBFFB /* FirebaseInstallations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = "<group>"; };
+		DF4ED3F6240A39EA001EBFFB /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		DF4ED3F7240A39EA001EBFFB /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		DF4ED3F8240A39EA001EBFFB /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		DF4ED3F9240A39EA001EBFFB /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = "<group>"; };
+		DF4ED3FA240A39EA001EBFFB /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		DF4ED3FB240A39EA001EBFFB /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
+		DF4ED3FC240A39EA001EBFFB /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		DF4ED408240A3A0D001EBFFB /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/FirebaseStorage/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
+		DF4ED409240A3A0D001EBFFB /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = "<group>"; };
+		DF4ED40C240A3A2F001EBFFB /* abseil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = abseil.framework; sourceTree = "<group>"; };
+		DF4ED40D240A3A31001EBFFB /* gRPC-C++.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "gRPC-C++.framework"; sourceTree = "<group>"; };
+		DF4ED40E240A3A32001EBFFB /* BoringSSL-GRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "BoringSSL-GRPC.framework"; sourceTree = "<group>"; };
+		DF4ED40F240A3A34001EBFFB /* gRPC-Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "gRPC-Core.framework"; sourceTree = "<group>"; };
+		DF4ED410240A3A34001EBFFB /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
+		DF4ED411240A3A37001EBFFB /* FirebaseFirestore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = "<group>"; };
+		DF4ED418240A3C0D001EBFFB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DF4ED41C240A3C4A001EBFFB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DF4ED41E240A3C69001EBFFB /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		DF4ED420240A6012001EBFFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF4ED422240A6774001EBFFB /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +88,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4ED415240A3A37001EBFFB /* gRPC-Core.framework in Frameworks */,
+				DF4ED3F0240A39B7001EBFFB /* GTMSessionFetcher.framework in Frameworks */,
+				DF4ED417240A3A37001EBFFB /* FirebaseFirestore.framework in Frameworks */,
+				DF4ED407240A39EA001EBFFB /* FirebaseCore.framework in Frameworks */,
+				DF4ED3FE240A39EA001EBFFB /* GoogleDataTransport.framework in Frameworks */,
+				DF4ED406240A39EA001EBFFB /* PromisesObjC.framework in Frameworks */,
+				DF4ED3FF240A39EA001EBFFB /* GoogleAppMeasurement.framework in Frameworks */,
+				DF4ED401240A39EA001EBFFB /* nanopb.framework in Frameworks */,
+				DF4ED426240A7B57001EBFFB /* SDWebImage in Frameworks */,
+				DF4ED413240A3A37001EBFFB /* gRPC-C++.framework in Frameworks */,
+				DF4ED428240A7B57001EBFFB /* SDWebImageMapKit in Frameworks */,
+				DF4ED3F1240A39B7001EBFFB /* FirebaseAuth.framework in Frameworks */,
+				DF4ED416240A3A37001EBFFB /* leveldb-library.framework in Frameworks */,
+				DF4ED3FD240A39EA001EBFFB /* FirebaseAnalytics.framework in Frameworks */,
+				DF4ED40B240A3A0D001EBFFB /* FirebaseStorage.framework in Frameworks */,
+				DF4ED414240A3A37001EBFFB /* BoringSSL-GRPC.framework in Frameworks */,
+				DF4ED403240A39EA001EBFFB /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				DF4ED400240A39EA001EBFFB /* FirebaseInstallations.framework in Frameworks */,
+				DF4ED404240A39EA001EBFFB /* GoogleDataTransportCCTSupport.framework in Frameworks */,
+				DF4ED412240A3A37001EBFFB /* abseil.framework in Frameworks */,
+				DF4ED402240A39EA001EBFFB /* FIRAnalyticsConnector.framework in Frameworks */,
+				DF4ED40A240A3A0D001EBFFB /* GTMSessionFetcher.framework in Frameworks */,
+				DF4ED405240A39EA001EBFFB /* GoogleUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		931E5040210A9964E44536B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF4ED409240A3A0D001EBFFB /* FirebaseStorage.framework */,
+				DF4ED40C240A3A2F001EBFFB /* abseil.framework */,
+				DF4ED40E240A3A32001EBFFB /* BoringSSL-GRPC.framework */,
+				DF4ED411240A3A37001EBFFB /* FirebaseFirestore.framework */,
+				DF4ED40D240A3A31001EBFFB /* gRPC-C++.framework */,
+				DF4ED40F240A3A34001EBFFB /* gRPC-Core.framework */,
+				DF4ED410240A3A34001EBFFB /* leveldb-library.framework */,
+				DF4ED408240A3A0D001EBFFB /* GTMSessionFetcher.framework */,
+				DF4ED3F7240A39EA001EBFFB /* FIRAnalyticsConnector.framework */,
+				DF4ED3F2240A39E8001EBFFB /* FirebaseAnalytics.framework */,
+				DF4ED3FC240A39EA001EBFFB /* FirebaseCore.framework */,
+				DF4ED3F8240A39EA001EBFFB /* FirebaseCoreDiagnostics.framework */,
+				DF4ED3F5240A39E9001EBFFB /* FirebaseInstallations.framework */,
+				DF4ED3F4240A39E9001EBFFB /* GoogleAppMeasurement.framework */,
+				DF4ED3F3240A39E8001EBFFB /* GoogleDataTransport.framework */,
+				DF4ED3F9240A39EA001EBFFB /* GoogleDataTransportCCTSupport.framework */,
+				DF4ED3FA240A39EA001EBFFB /* GoogleUtilities.framework */,
+				DF4ED3F6240A39EA001EBFFB /* nanopb.framework */,
+				DF4ED3FB240A39EA001EBFFB /* PromisesObjC.framework */,
+				DF4ED3EF240A39B7001EBFFB /* FirebaseAuth.framework */,
+				DF4ED3EE240A39B6001EBFFB /* GTMSessionFetcher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3905B7CAF9023FD916CEFA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74DCDE84838E55DA1840EEAC /* Pods-21.PhotoMedia.debug.xcconfig */,
+				1073450703C5C394E53C89C4 /* Pods-21.PhotoMedia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF4ED39F240A27FA001EBFFB = {
 			isa = PBXGroup;
 			children = (
+				DF4ED3D7240A338B001EBFFB /* Firebase.h */,
 				DF4ED3AA240A27FA001EBFFB /* 21.PhotoMedia */,
 				DF4ED3A9240A27FA001EBFFB /* Products */,
+				931E5040210A9964E44536B3 /* Frameworks */,
+				B3905B7CAF9023FD916CEFA2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +179,15 @@
 				DF4ED3AB240A27FA001EBFFB /* AppDelegate.swift */,
 				DF4ED3AD240A27FA001EBFFB /* SceneDelegate.swift */,
 				DF4ED3AF240A27FA001EBFFB /* ViewController.swift */,
+				DF4ED418240A3C0D001EBFFB /* FeedViewController.swift */,
+				DF4ED422240A6774001EBFFB /* FeedCell.swift */,
+				DF4ED41E240A3C69001EBFFB /* UploadViewController.swift */,
+				DF4ED41C240A3C4A001EBFFB /* SettingsViewController.swift */,
 				DF4ED3B1240A27FA001EBFFB /* Main.storyboard */,
 				DF4ED3B4240A27FC001EBFFB /* Assets.xcassets */,
 				DF4ED3B6240A27FC001EBFFB /* LaunchScreen.storyboard */,
 				DF4ED3B9240A27FC001EBFFB /* Info.plist */,
+				DF4ED420240A6012001EBFFB /* GoogleService-Info.plist */,
 			);
 			path = 21.PhotoMedia;
 			sourceTree = "<group>";
@@ -74,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF4ED3BC240A27FC001EBFFB /* Build configuration list for PBXNativeTarget "21.PhotoMedia" */;
 			buildPhases = (
+				E948171CBC57A15A6526ACE5 /* [CP] Check Pods Manifest.lock */,
 				DF4ED3A4240A27FA001EBFFB /* Sources */,
 				DF4ED3A5240A27FA001EBFFB /* Frameworks */,
 				DF4ED3A6240A27FA001EBFFB /* Resources */,
@@ -83,6 +209,10 @@
 			dependencies = (
 			);
 			name = 21.PhotoMedia;
+			packageProductDependencies = (
+				DF4ED425240A7B57001EBFFB /* SDWebImage */,
+				DF4ED427240A7B57001EBFFB /* SDWebImageMapKit */,
+			);
 			productName = 21.PhotoMedia;
 			productReference = DF4ED3A8240A27FA001EBFFB /* 21.PhotoMedia.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +241,9 @@
 				Base,
 			);
 			mainGroup = DF4ED39F240A27FA001EBFFB;
+			packageReferences = (
+				DF4ED424240A7B57001EBFFB /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = DF4ED3A9240A27FA001EBFFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF4ED3B8240A27FC001EBFFB /* LaunchScreen.storyboard in Resources */,
+				DF4ED421240A6012001EBFFB /* GoogleService-Info.plist in Resources */,
 				DF4ED3B5240A27FC001EBFFB /* Assets.xcassets in Resources */,
 				DF4ED3B3240A27FA001EBFFB /* Main.storyboard in Resources */,
 			);
@@ -133,14 +267,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E948171CBC57A15A6526ACE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-21.PhotoMedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF4ED3A4240A27FA001EBFFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4ED423240A6774001EBFFB /* FeedCell.swift in Sources */,
 				DF4ED3B0240A27FA001EBFFB /* ViewController.swift in Sources */,
+				DF4ED41F240A3C69001EBFFB /* UploadViewController.swift in Sources */,
 				DF4ED3AC240A27FA001EBFFB /* AppDelegate.swift in Sources */,
+				DF4ED419240A3C0D001EBFFB /* FeedViewController.swift in Sources */,
 				DF4ED3AE240A27FA001EBFFB /* SceneDelegate.swift in Sources */,
+				DF4ED41D240A3C4A001EBFFB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,37 +445,59 @@
 		};
 		DF4ED3BD240A27FC001EBFFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DCDE84838E55DA1840EEAC /* Pods-21.PhotoMedia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R9K5YPXP3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/FirebaseAnalytics",
+					"$(PROJECT_DIR)/Firebase/FirebaseAuth",
+					"$(PROJECT_DIR)/Firebase/FirebaseFirestore",
+					"$(PROJECT_DIR)/Firebase/FirebaseStorage",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/.Trash/FirebaseStorage",
+				);
 				INFOPLIST_FILE = 21.PhotoMedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "Regan.-1-PhotoMedia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DF4ED3BE240A27FC001EBFFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1073450703C5C394E53C89C4 /* Pods-21.PhotoMedia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6R9K5YPXP3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/FirebaseAnalytics",
+					"$(PROJECT_DIR)/Firebase/FirebaseAuth",
+					"$(PROJECT_DIR)/Firebase/FirebaseFirestore",
+					"$(PROJECT_DIR)/Firebase/FirebaseStorage",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Mobile\\ Documents/com~apple~CloudDocs/.Trash/FirebaseStorage",
+				);
 				INFOPLIST_FILE = 21.PhotoMedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "Regan.-1-PhotoMedia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -338,6 +523,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF4ED424240A7B57001EBFFB /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF4ED425240A7B57001EBFFB /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF4ED424240A7B57001EBFFB /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		DF4ED427240A7B57001EBFFB /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF4ED424240A7B57001EBFFB /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF4ED3A0240A27FA001EBFFB /* Project object */;
 }
