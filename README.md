@@ -1,5 +1,5 @@
-![forthebadge](https://img.shields.io/badge/made%20with-Swift-red.svg?style=for-the-badge&logo=Swift&logoColor=white)<br>
-![forthebadge](https://img.shields.io/badge/uses-Firebase-blue.svg?style=for-the-badge&logo=Firebase&logoColor=white)
+![forthebadge](https://img.shields.io/badge/made%20with-Swift-FA7343.svg?style=for-the-badge&logo=Swift&logoColor=white)<br>
+![forthebadge](https://img.shields.io/badge/uses-Firebase-FFCA28.svg?style=for-the-badge&logo=Firebase&logoColor=white)
 
 # *PhotoFeed*
 This is an iOS application that allows users to upload photos which then displays them in a feed for display purposes. 
